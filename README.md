@@ -28,9 +28,20 @@ This project helps to manage various mission to find habitable planets like eart
      or
 
      npm run deploy
+
+     or
+
+     npm run deploy-cluster (for running clustered version in deployed version)
    ```
 
-4. To run the tests:
+4. To stop pm2 clustered processes:
+
+   ```bash
+     pm2 delete all
+     pm2 kill
+   ```
+
+5. To run the tests:
 
    ```bash
      npm run test
@@ -53,6 +64,7 @@ This project helps to manage various mission to find habitable planets like eart
    - jest
    - nodemon
    - supertest
+   - pm2
 2. Client:
    - react
    - react-dom
