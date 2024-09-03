@@ -65,6 +65,7 @@ This project helps to manage various mission to find habitable planets like eart
    - nodemon
    - supertest
    - pm2
+   - mongoose
 2. Client:
    - react
    - react-dom
