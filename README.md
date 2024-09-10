@@ -66,6 +66,7 @@ This project helps to manage various mission to find habitable planets like eart
    - supertest
    - pm2
    - mongoose
+   - axios
 2. Client:
    - react
    - react-dom
