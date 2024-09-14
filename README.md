@@ -68,6 +68,7 @@ This project helps to manage various mission to find habitable planets like eart
    - mongoose
    - axios
    - dotenv
+   - helmet
 2. Client:
    - react
    - react-dom
